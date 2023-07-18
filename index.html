@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-MEN</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem Ciclope">
+                </li>
+
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Ela é telepática e telecinética com uma conexão perigosa com a entidade cósmica conhecida como Fênix, concedendo-lhe poderes de manipulação de energia e um constante conflito interno.">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem Jean Grey">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Ela tem a capacidade de 'atravessar' objetos sólidos, permitindo que ela se mova através de paredes e outros obstáculos físicos. Além de suas habilidades mutantes, ela é uma combatente habilidosa.">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem Lince Negra">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Possui o controle absoluto do magnetismo. Manipula metais, levita objetos e cria barreiras protetoras. Poderoso e determinado, é um líder dos mutantes.">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem Magneto">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Possui habilidades acrobáticas excepcionais e a capacidade de se teletransportar através de curta distância. Sua aparência é marcada por pele azul, olhos amarelos e uma cauda preênsil.">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem Noturno">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Ela tem o poder de controlar o clima. Ela pode convocar tempestades, criar relâmpagos e ventos poderosos. Sua conexão com a natureza permite que ela sinta as mudanças atmosféricas e manipule o ambiente ao seu redor.">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Tem a capacidade de absorver memórias, habilidades e energia vital de outras pessoas por meio do toque. Ela também possui uma força e resistência sobre-humanas. Vampira é atormentada pelo seu poder, já que absorver a energia de outras pessoas pode ser perigoso para elas.">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem vampira">
+                </li>
+
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Ele possui um fator de cura acelerado, garras retráteis de adamantium e sentidos aguçados. Sua regeneração rápida permite que ele se recupere de ferimentos graves e prolongue sua vida. Wolverine é um combatente feroz, com habilidades de luta excepcionais e uma incrível resistência física.">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+            </ul>
+        </section>
+
+        <section class="personagem-selecionado">
+
+            <img class="personagem-grande "src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div>
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem"> Ele tem o poder de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los
+                </p> 
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
