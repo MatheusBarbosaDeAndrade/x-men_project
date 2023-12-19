@@ -11,4 +11,8 @@ O objetivo deste desenvolvimento é colocar em prática os conhecimentos adquiri
 
 O site oferece a seguinte funcionalidade:
 
-![imagem da funcionalidade do site]()
+![imagem da funcionalidade do site](/imgReadme/mostrandoFuncionalidade.png)
+
+Ao passar o mouse em cima de algum bloco de imagem de algum personagem do lado esquerdo, sua imagem completa e sua descrição surgem do lado direito da tela.  
+
+**Agradeço pela visita!**
